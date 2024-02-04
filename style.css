@@ -56,3 +56,95 @@ span {
   text-transform: uppercase;
 }
 
+.hero {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-one {
+  gap: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.paragrafo {
+  padding: 20px;
+  margin-top: 50%;
+}
+
+.title-hero {
+  font-size: 30px;
+  font-family: "Rosario", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 55px;
+}
+
+.title-hero-dois {
+  font-size: 30px;
+  font-family: "Rosario", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 45px;
+}
+
+.btn-contato {
+  background: #eb7a9e;
+  padding: 10px 10px;
+  border-radius: 40px;
+  list-style: none;
+  justify-content: space-between;
+  gap: 35px;
+  color: white;
+  font-family: "Rosario", sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-right: 200px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px #c56685;
+}
+
+.img-left-hero {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 40px;
+}
+
+.unha-um {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 40px #c56685;
+}
+
+.unha-dois {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 40px #c56685;
+}
+
+.unha-tres {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 40px #c56685;
+}
+
+.img-principal {
+  width: 348px;
+  height: 376px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 40px #c56685;
+  margin-top: 70px;
+  margin-left: 130px;
+}
