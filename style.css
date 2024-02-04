@@ -224,3 +224,62 @@ span {
   height: 300px;
   margin-left: 80px;
 }
+
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.title-last {
+  font-family: "Rosario", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 170px;
+}
+
+.last-one {
+  background: white;
+  border-radius: 20px;
+  padding: 15px;
+  gap: 20px;
+}
+
+.fibra {
+  font-family: "Rosario", sans-serif;
+  font-size: 16px;
+  color: #c56685;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.valor {
+  font-family: "Rosario", sans-serif;
+  color: #c56685;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.img-pro-one {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.img-pro-two {
+  width: 200px;
+  height: 200px;
+}
+
+.img-pro-thre {
+  width: 200px;
+  height: 200px;
+}
