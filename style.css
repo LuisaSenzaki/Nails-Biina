@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./assets/fundo\ exportado.png) no-repeat center/cover;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+span {
+  font-family: "Rosario", sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+.option {
+  display: flex;
+  flex-direction: row;
+  background: #eb7a9e;
+  padding: 10px 10px;
+  border-radius: 40px;
+  list-style: none;
+  justify-content: space-between;
+  gap: 35px;
+  color: white;
+  font-family: "Rosario", sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.clientes {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sobre-nos-btn {
+  cursor: pointer;
+}
+
+.procedimentos-btn {
+  cursor: pointer;
+}
+
+.cidade {
+  font-family: "Rosario", sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
