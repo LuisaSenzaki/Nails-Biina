@@ -23,10 +23,8 @@ span {
 
 .option {
   display: flex;
+  padding: 5px;
   flex-direction: row;
-  background: #eb7a9e;
-  padding: 10px 10px;
-  border-radius: 40px;
   list-style: none;
   justify-content: space-between;
   gap: 35px;
@@ -37,17 +35,48 @@ span {
 }
 
 .clientes {
+  padding: 10px 10px;
   color: white;
   text-decoration: none;
   cursor: pointer;
 }
 
+.btn-cliente {
+  color: white;
+  text-decoration: none;
+  border-radius: 40px;
+  background: #eb7a9e;
+  padding: 10px 10px;
+  transition: 0.3s;
+}
+
+.btn-cliente:hover {
+  background: white;
+  color: #c56685;
+}
+
 .sobre-nos-btn {
+  border-radius: 40px;
+  background: #eb7a9e;
+  padding: 10px 10px;
   cursor: pointer;
 }
 
+.sobre-nos-btn:hover {
+  background: white;
+  color: #c56685;
+}
+
 .procedimentos-btn {
+  border-radius: 40px;
+  background: #eb7a9e;
+  padding: 10px 10px;
   cursor: pointer;
+}
+
+.procedimentos-btn:hover {
+  background: white;
+  color: #c56685;
 }
 
 .cidade {
@@ -104,12 +133,18 @@ span {
   text-decoration: none;
   align-items: center;
   text-align: center;
-  
+
   margin-left: 200px;
   margin-top: 10px;
   margin-right: 200px;
   cursor: pointer;
   box-shadow: 5px 5px 10px #c56685;
+  transition: 0.3s;
+}
+
+.btn-contato:hover {
+  background: white;
+  color: #c56685;
 }
 
 .img-left-hero {
