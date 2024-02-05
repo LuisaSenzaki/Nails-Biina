@@ -90,6 +90,10 @@ span {
   flex-direction: row;
 }
 
+.left-hero {
+  margin-left: 40px;
+}
+
 .container-one {
   gap: 10px;
   padding: 40px;
