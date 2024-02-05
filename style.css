@@ -274,12 +274,79 @@ span {
   border-radius: 20px;
 }
 
+.last-two {
+  background: white;
+  border-radius: 20px;
+  padding: 15px;
+  gap: 20px;
+}
+
+.gel {
+  font-family: "Rosario", sans-serif;
+  font-size: 16px;
+  color: #c56685;
+  text-align: center;
+  text-transform: uppercase;
+}
+.valor-dois {
+  font-family: "Rosario", sans-serif;
+  color: #c56685;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .img-pro-two {
   width: 200px;
   height: 200px;
+  border-radius: 20px;
+}
+
+.last-three {
+  background: white;
+  border-radius: 20px;
+  padding: 15px;
+  gap: 20px;
+}
+
+.esmalte {
+  font-family: "Rosario", sans-serif;
+  font-size: 16px;
+  color: #c56685;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.valor-tres {
+  font-family: "Rosario", sans-serif;
+  color: #c56685;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .img-pro-thre {
   width: 200px;
   height: 200px;
+  border-radius: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-family: "Rosario", sans-serif;
+  color: white;
+  background: #c56685;
+  text-transform: uppercase;
+  align-items: center;
+  font-size: 15px;
+}
+
+.Desenvolvido {
+  font-family: "Rosario", sans-serif;
+  color: white;
 }
