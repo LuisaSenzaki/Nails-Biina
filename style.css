@@ -21,6 +21,10 @@ span {
   text-transform: uppercase;
 }
 
+.nails-btn {
+  text-decoration: none;
+}
+
 .option {
   display: flex;
   padding: 5px;
@@ -55,28 +59,46 @@ span {
   color: #c56685;
 }
 
-.sobre-nos-btn {
+.sobre-nos {
+  color: white;
+  text-decoration: none;
   border-radius: 40px;
   background: #eb7a9e;
   padding: 10px 10px;
+  transition: 0.3s;
+}
+
+.sobre-nos:hover {
+  background: white;
+  color: #c56685;
+}
+
+.sobre-nos-btn {
+  padding: 10px 10px;
+  color: white;
+  text-decoration: none;
   cursor: pointer;
 }
 
-.sobre-nos-btn:hover {
-  background: white;
+.proc {
+  color: white;
+  text-decoration: none;
+  border-radius: 40px;
+  background: #eb7a9e;
+  padding: 10px 10px;
+  transition: 0.3s;
+}
+
+.proc:hover {
   color: #c56685;
+  background: white;
 }
 
 .procedimentos-btn {
-  border-radius: 40px;
-  background: #eb7a9e;
   padding: 10px 10px;
+  color: white;
+  text-decoration: none;
   cursor: pointer;
-}
-
-.procedimentos-btn:hover {
-  background: white;
-  color: #c56685;
 }
 
 .cidade {
@@ -85,13 +107,17 @@ span {
   text-transform: uppercase;
 }
 
+.localiza {
+  text-decoration: none;
+}
+
 .hero {
   display: flex;
   flex-direction: row;
 }
 
 .left-hero {
-  margin-left: 40px;
+  margin-left: 120px;
 }
 
 .container-one {
@@ -188,7 +214,7 @@ span {
   margin-left: 130px;
 }
 
-.about {
+#about {
   display: flex;
   flex-direction: row;
   background: white;
@@ -204,7 +230,7 @@ span {
   flex-direction: column;
 }
 
-.title-about {
+#title-about {
   font-family: "Rosario", sans-serif;
   color: #c56685;
   text-transform: uppercase;
@@ -238,7 +264,7 @@ span {
   margin-bottom: 100px;
 }
 
-.title-last {
+#title-last {
   font-family: "Rosario", sans-serif;
   color: white;
   text-transform: uppercase;

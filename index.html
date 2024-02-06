@@ -15,11 +15,15 @@
   </head>
   <body>
     <header class="head">
-      <span>nails biina</span>
+      <a class="nails-btn" href="#nails"><span id="nails">nails biina</span></a>
       <div class="cabeca">
         <ul class="option">
-          <li class="sobre-nos-btn"><a>Sobre nós</a></li>
-          <li class="procedimentos-btn"><a>Procedimentos</a></li>
+          <li class="sobre-nos-btn">
+            <a class="sobre-nos" href="#about">Sobre nós</a>
+          </li>
+          <li class="procedimentos-btn">
+            <a class="proc" href="#title-last">Procedimentos</a>
+          </li>
           <li class="clientes">
             <a
               class="btn-cliente"
@@ -30,7 +34,12 @@
           </li>
         </ul>
       </div>
-      <p class="cidade">suzano-sp</p>
+      <a
+        class="localiza"
+        href="https://www.google.com.br/maps/place/Suzano+-+Palmeiras+de+S%C3%A3o+Paulo,+Suzano+-+SP/@-23.6152248,-46.3190781,11z/data=!3m1!4b1!4m6!3m5!1s0x94ce7176a5cf4309:0x7678f276a368e6e2!8m2!3d-23.5376111!4d-46.3092622!16zL20vMGY5Ml9x?entry=ttu"
+        target="_blank"
+        ><p class="cidade">suzano-sp</p></a
+      >
     </header>
     <section class="hero">
       <div class="left-hero">
@@ -56,9 +65,9 @@
         <img class="img-principal" src="./assets/principal (1).jpeg" />
       </div>
     </section>
-    <section class="about">
+    <section id="about">
       <div class="texto">
-        <h2 class="title-about">sobre nós</h2>
+        <h2 id="title-about">sobre nós</h2>
         <p class="text-about">
           Somos apaixonados por transformar simples unhas em obras de arte,
           destacando a beleza natural de cada pessoa. Aqui, cada pincelada é
@@ -72,28 +81,29 @@
       </div>
     </section>
     <section class="last">
-      <h3 class="title-last">procedimentos</h3>
+      <h3 id="title-last">procedimentos</h3>
       <div class="information">
-      <div class="last-one">
-        <h4 class="fibra">Fibra de vidro</h4>
-        <p class="valor">R$100,00</p>
-        <img class="img-pro-one" src="./assets/fibra.jpeg" />
-      </div>
-      <div class="last-two">
-        <h4 class="gel">Banho em gel</h4>
-        <p class="valor-dois">R$60,00</p>
-        <img class="img-pro-two" src="./assets/gel.jpeg" />
-      </div>
-      <div class="last-three">
-        <h4 class="esmalte">Esmaltação</h4>
-        <p class="valor-tres">R$40,00</p>
-        <img class="img-pro-thre" src="./assets/esmaltação.jpeg" />
-      </div>
+        <div class="last-one">
+          <h4 class="fibra">Fibra de vidro</h4>
+          <p class="valor">R$100,00</p>
+          <img class="img-pro-one" src="./assets/fibra.jpeg" />
+        </div>
+        <div class="last-two">
+          <h4 class="gel">Banho em gel</h4>
+          <p class="valor-dois">R$60,00</p>
+          <img class="img-pro-two" src="./assets/gel.jpeg" />
+        </div>
+        <div class="last-three">
+          <h4 class="esmalte">Esmaltação</h4>
+          <p class="valor-tres">R$40,00</p>
+          <img class="img-pro-thre" src="./assets/esmaltação.jpeg" />
+        </div>
       </div>
     </section>
     <footer>
       Desenvolvido e administrado por
-      <a class="Desenvolvido"
+      <a
+        class="Desenvolvido"
         href="https://www.linkedin.com/in/luisa-sayuri-senzaki/"
         target="_blank"
         class="name"

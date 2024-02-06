@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+  body {
+    background: none;
+    background-color: #f9ccc9;
+  }
+
+  .option {
+    gap: 5px;
+  }
+
+  .btn-cliente {
+    display: none;
+    font-size: 7px;
+    padding: 6px;
+  }
+
+  .sobre-nos-btn {
+    display: none;
+    font-size: 9px;
+    padding: 6px 6px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .procedimentos-btn {
+    display: none;
+  }
+
+  .cidade {
+    display: none;
+  }
+
+  span {
+    margin-top: 20px;
+    margin-left: 95px;
+  }
+
+  
+}
