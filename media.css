@@ -5,8 +5,14 @@
   }
 
   .head {
-    margin-top: 20px;
-    margin-left: 95px;
+    margin-top: 40px;
+    justify-content: center;
+    margin-left: 40px;
+    padding: 0px;
+  }
+
+  span {
+    font-size: 10px;
   }
 
   .btn-cliente {
@@ -34,28 +40,119 @@
 
   .left-hero {
     margin-left: 4px;
-    margin-top: 2px;
+    margin-top: 0%;
   }
 
-  .paragrafo {
-    margin-top: 5px;
+  .paragro {
+    margin-top: 30px;
   }
 
   .title-hero {
-    display: none;
-    font-size: 18px;
-    margin-left: 10px;
+    font-size: 11px;
+    text-align: center;
+    margin-left: 20px;
   }
 
   .title-hero-dois {
-    display: none;
-    font-size: 18px;
-    margin-left: 10px;
+    font-size: 11px;
+    margin-left: 20px;
+    text-align: center;
   }
 
   .btn-contato {
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: auto;
+    margin-top: 20px;
+  }
+
+  .container-one {
+    padding: 0px;
+  }
+  .img-left-hero {
+    margin-top: 40px;
+  }
+
+  .unha-um {
+    margin-left: auto;
+  }
+
+  .unha-dois {
+    display: none;
+  }
+
+  .unha-tres {
+    display: none;
+  }
+
+  .img-principal {
+    display: none;
+  }
+
+  #about {
+    width: 250px;
+    box-shadow: none;
+    margin-left: 16px;
+    margin-top: 2px;
+    flex-direction: column;
+  }
+
+  #title-about {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 75px;
+  }
+
+  .text-about {
+    justify-content: center;
+    width: 250px;
+    margin-left: 5px;
+    font-size: 10px;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-left: 30px;
+  }
+
+  .information {
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  #title-last {
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 15px;
+  }
+  .last-one {
+    width: 230px;
+    margin-left: 30px;
+  }
+
+  .img-pro-one {
+    margin-left: 2px;
+  }
+
+  .last-two {
+    width: 230px;
+    margin-left: 30px;
+  }
+
+  .img-pro-two {
+    margin-left: 2px;
+  }
+
+  .last-three {
+    width: 230px;
+    margin-left: 30px;
+  }
+
+  .img-pro-thre {
+    margin-left: 2px;
   }
 }
